@@ -1,0 +1,8 @@
+To Pair Playstation Controller
+sudo sixad --start
+
+To test Controller Input
+jstest /dev/input/js0
+
+To compile
+g++ RC_Car.cpp -o RC_Car -I . -lwiringPi 
